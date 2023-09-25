@@ -1,0 +1,7 @@
+name: wp-starter
+recipe: wordpress
+config:
+  php: '8.2'
+  via: apache
+  webroot: wordpress
+  # xdebug: true

@@ -1,0 +1,29 @@
+*.log
+node_modules
+
+# Ignore all
+/wordpress/*
+
+# Place only our theme and custom plugins inside git
+!/wordpress/favicon.ico
+!/wordpress/favicon*
+!/wordpress/mstile*
+!/wordpress/safari-pinned-tab.svg
+!/wordpress/site.webmanifest
+!/wordpress/browserconfig.xml
+!/wordpress/apple-touch-icon.png
+!/wordpress/android-chrome-*
+!/wordpress/wp-content
+/wordpress/wp-content/*
+!/wordpress/wp-content/themes
+/wordpress/wp-content/themes/*
+!/wordpress/wp-content/themes/timber-*
+!/wordpress/wp-content/mu-plugins
+/wordpress/wp-content/mu-plugins/*
+!/wordpress/wp-content/mu-plugins/local
+
+# Composer
+/wordpress/wp-content/mu-plugins/local/vendor
+
+# Some root files
+!.gitignore
