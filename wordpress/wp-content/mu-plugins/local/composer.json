@@ -3,7 +3,7 @@
   "description": "Primary wp plugin with site's custom logic",
   "minimum-stability": "stable",
   "require": {
-    "timber/timber": "^2.0.0-rc1",
+    "timber/timber": "2.0.0-rc.1",
     "twig/html-extra": "^3.7",
     "hellonico/timber-dump-extension": "^1.0",
     "vinkla/extended-acf": "^13.7"
